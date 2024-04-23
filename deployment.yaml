@@ -8,11 +8,11 @@ spec:
   replicas: 2
   selector:
     matchLabels:
-      app: pet-deploy
+      app: koola-deploy
   template:
     metadata:
       labels:
-        app: pet-deploy
+        app: koola-deploy
     spec:
       containers:
       - image: kinleeey/kola:latest
