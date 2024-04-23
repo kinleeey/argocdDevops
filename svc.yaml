@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   labels:
-    app: pet-deploy
+    app: koola-deploy
   name: koola-svc
   #namespace: pet
 spec:
