@@ -15,5 +15,5 @@ spec:
         app: koola-deploy
     spec:
       containers:
-      - image: kinleeey/kola:latest
+      - image: kinleeey/kola:20
         name: pet
